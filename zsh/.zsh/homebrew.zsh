@@ -1,3 +1,4 @@
+export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
 brew_path="/opt/homebrew/bin"
 brew_opt_path="/opt/homebrew/opt"
 

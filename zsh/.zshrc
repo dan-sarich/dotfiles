@@ -11,3 +11,4 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 [[ -f ~/.zsh/sonarqube.zsh ]] && source ~/.zsh/sonarqube.zsh
 [[ -f ~/.zsh/spaceship.zsh ]] && source ~/.zsh/spaceship.zsh
 [[ -f ~/.zsh/oh-my-zsh.zsh ]] && source ~/.zsh/oh-my-zsh.zsh
+[[ -f ~/.zsh/oh-my-posh.zsh ]] && source ~/.zsh/oh-my-posh.zsh

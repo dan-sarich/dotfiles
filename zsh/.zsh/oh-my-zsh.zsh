@@ -8,7 +8,10 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="half-life"
+
+if [[ $TERM_PROGRAM = "Apple_Terminal" ]]; then
+  ZSH_THEME="half-life"
+fi
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -58,9 +61,9 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git 
+  zsh-nvm 
   zsh-syntax-highlighting 
   zsh-autosuggestions
   )
 
 source $ZSH/oh-my-zsh.sh
-
