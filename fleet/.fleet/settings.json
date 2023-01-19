@@ -1,5 +1,6 @@
 {
     "editor.renderWhitespace": "None",
     "editor.caretShape": "Vertical",
-    "theme": "dark"
+    "theme": "dark",
+    "zoomLevel": 1.1
 }

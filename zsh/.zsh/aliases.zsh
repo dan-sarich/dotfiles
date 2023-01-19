@@ -12,5 +12,6 @@ alias np=pnpm
 alias nd="np dev"
 alias nb="np build"
 alias ns="np start"
+alias sb="np storybook --port 3002"
 
 alias src="source ~/.zshrc"
